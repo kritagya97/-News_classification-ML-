@@ -1,7 +1,7 @@
 import streamlit as st
 import nltk
 nltk.download('stopwords')
-nltk.download('punkt')  # If tokenization is used
+nltk.download('punkt') # If tokenization is used
 nltk.download('wordnet')  # If lemmatization is used
 nltk.download('omw-1.4')
 import joblib
