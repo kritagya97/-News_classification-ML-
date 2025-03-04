@@ -14,7 +14,7 @@ lemmatizer = WordNetLemmatizer()
 stop_words = set(stopwords.words('english'))
 
 # Load pre-trained model
-model = joblib.load('nb_model.joblib')
+model = joblib.load('news_classification/nb_model.joblib')
 
 # Streamlit app layout
 st.set_page_config(page_title="News Categorization", page_icon="📚", layout="centered")
